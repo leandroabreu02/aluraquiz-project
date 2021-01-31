@@ -54,7 +54,7 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
-            <h1>The legend of zelda</h1>
+            <h1>Desafio CSS</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
@@ -94,7 +94,7 @@ export default function Home() {
 
             <ul>
               {db.external.map((linkExterno) => {
-                const [projectName, githubUser] = 'https://aluraquiz-css.omariosouto.vercel.app/'
+                const [projectName, githubUser] = 'https://aluraquiz-project.leandroabreu13.vercel.app/'
                   .replace(/\//g, '')
                   .replace('https:', '')
                   .replace('.vercel.app', '')
@@ -125,7 +125,7 @@ export default function Home() {
           animate="show"
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto"/>
+      <GitHubCorner projectUrl="https://github.com/leandroabreu13"/>
     </QuizBackground>
   );
 }
